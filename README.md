@@ -104,16 +104,12 @@ DIGIZ embraces:
 
 ## 🚦 Getting Started
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-- Heroku CLI (for deployment)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/digiz.git
+git clone https://github.com/vmihiranga/digiz.git
 
 # Navigate to project directory
 cd digiz
@@ -128,18 +124,7 @@ npm start
 # Navigate to http://localhost:3000
 ```
 
-### Environment Variables
 
-Create a `.env` file in the root directory:
-
-```env
-PORT=3000
-NODE_ENV=development
-DATABASE_URL=your_database_url
-SESSION_SECRET=your_secret_key
-```
-
----
 
 ## 📝 Content Management
 
@@ -182,25 +167,6 @@ DIGIZ maintains transparency about AI-generated content. View our complete [AI C
 
 ---
 
-## 🚀 Deployment
-
-### Heroku Deployment
-
-```bash
-# Login to Heroku
-heroku login
-
-# Create new app
-heroku create digiz
-
-# Deploy
-git push heroku main
-
-# Open app
-heroku open
-```
-
----
 
 ## 🔮 Future Enhancements
 
@@ -221,18 +187,6 @@ heroku open
 - 🎯 SEO optimized
 - ♿ Accessibility compliant
 - 📈 Analytics integrated
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
