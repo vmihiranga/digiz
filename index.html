@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to Digiz...</title>
+    <meta
+      http-equiv="refresh"
+      content="0; url=https://digiz-34ef6cb43bc7.herokuapp.com/"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #0f172a;
+        color: white;
+        text-align: center;
+      }
+      .loader {
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        border-left-color: #3b82f6;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="loader"></div>
+      <h1>Redirecting...</h1>
+      <p>
+        If you are not redirected automatically,
+        <a
+          href="https://digiz-34ef6cb43bc7.herokuapp.com/"
+          style="color: #3b82f6"
+          >click here</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>

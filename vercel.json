@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://digiz-34ef6cb43bc7.herokuapp.com/$1",
+      "permanent": true
+    }
+  ]
+}
